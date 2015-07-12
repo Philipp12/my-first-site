@@ -1,0 +1,43 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Head Example </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="ttt.js"></script>
+</head>
+<body>
+<div class="wrap">
+ <div class="header"><div id="helper2"><h1 id="h1_1">The War of teenagers</h1></div>
+ </div>
+ <div class="menu">
+     <div id="Glavnaya"><p id="p1">Главная страница</p></div>
+     <div id="OSeriale"><p id="p2">O Сериале</p></div>
+     <div id="OGeroyah"><p id="p3">О Героях</p></div>
+     <div id="obAvtore"><p id="p4">Об Авторе</p></div>
+ </div>
+ <div class="left">
+  <div class="List">
+      <ul><p>Список серий</p>
+      <li>Серия 1</li>
+      <li>Серия 2</li>
+      </ul>
+  </div>
+  <form action="myphp.php" method="get" id="form">
+  	<input type="Text" name="name" placeholder="Name"><br>
+  	<input type="Text" name="email" placeholder="email"><br>
+  	<input type="submit"value="go">
+  </form>
+ </div>
+ <div class="center">
+ <article id="art1">
+ <h1 id="Zagolovok">Сюжет</h1>
+ <p id="p5">В центре сюжета находится молодой парень по имени Виктор Синицын, который долго отутствовал в родном городе. По возвращению домой он обнаруживает, что за родной район борются две преступные группировки. Судьба ставит его перед тяжелым выбором. Ему нужно определить чью сторону принять и как жить дальше</p>
+ </article>
+ </div>
+ <div class="footer"><div align="center" id="helper"><p id="p6">Этот сайт посвящен мультсериалу моего доброго друга Евгения Фоломеева</p></div>
+ </div>
+</div>
+</body>
+</html>
